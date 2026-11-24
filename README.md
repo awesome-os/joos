@@ -232,3 +232,10 @@ This shows timing at steady state from running the compiled version of vmm.js ag
 - run the cpu on it's own thread
 - optimize everywhere we can
 - lots more...
+
+## Quick Start (Windows / Linux / macOS)
+
+```sh
+# Clone & enter repository (all platforms)
+git clone https://github.com/awesome-os/joos.git && cd joos
+```
