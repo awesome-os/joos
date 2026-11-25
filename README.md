@@ -239,3 +239,13 @@ This shows timing at steady state from running the compiled version of vmm.js ag
 # Clone & enter repository (all platforms)
 git clone https://github.com/awesome-os/joos.git && cd joos
 ```
+
+## Quick Install & Run (Windows / Linux / macOS)
+
+```sh
+# Install / hydrate from v11 CAS via holo-pm
+holo-pm install repository://github.com/awesome-os/joos@main
+
+# Or project & run directly via holo-project (0-byte hardlink)
+holo-project "project://cpp/joos?from=repository://github.com/awesome-os/joos@main"
+```
